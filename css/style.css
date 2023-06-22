@@ -946,6 +946,7 @@ body {
 
 .sevices__item-price {
   color: #43AAFF;
+  font-size: 12px;
   font-weight: 800;
   text-align: center;
   max-width: 206px;
@@ -1528,4 +1529,271 @@ body {
           box-shadow: 0px 2px 5px 0px #43AAFF;
   border-radius: 50%;
   background-color: #43AAFF;
+}
+
+/*=====================================================================*/
+/*=============================BEFORE===================================*/
+/*=====================================================================*/
+.before__inner {
+  margin-bottom: 100px;
+}
+
+.before__heading {
+  margin-bottom: 54px;
+  margin-top: 45px;
+}
+
+.before__slider-wrapper {
+  -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  position: relative;
+}
+
+.before__slider {
+  width: 100%;
+}
+
+.before__slide-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.before__slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.before__slide-img {
+  margin: 10px 0 10px 10px;
+  max-height: 430px;
+  max-width: 503px;
+  overflow: hidden;
+}
+.before__slide-img figure {
+  background-image: url("../images/bathroom-before.jpg");
+  background-size: cover;
+  font-size: 0;
+  height: 430px;
+  margin: 0;
+  position: relative;
+  width: 503px;
+  border-radius: 30px;
+}
+
+#kobavenusab {
+  background-image: url("../images/bathroom-after.jpg");
+  background-size: cover;
+  bottom: 0;
+  border-right: 5px solid #ffffff;
+  height: 100%;
+  max-width: 98.6%;
+  min-width: 0.6%;
+  overflow: visible;
+  position: absolute;
+  width: 50%;
+  animation: first 2s 1 normal ease-in-out 0.1s;
+  -webkit-animation: first 2s 1 normal ease-in-out 0.1s;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+input#pedsumid {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background: transparent;
+  cursor: col-resize;
+  height: 100vw;
+  left: 0;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  position: relative;
+  top: -100vw;
+  width: 100%;
+}
+
+input#pedsumid::-moz-range-track {
+  background: transparent;
+}
+
+input#pedsumid::-ms-track {
+  border: none;
+  background-color: transparent;
+  height: 100vw;
+  left: 0;
+  outline: none;
+  position: relative;
+  top: -100vw;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: col-resize;
+  color: transparent;
+}
+
+input#pedsumid::-ms-fill-lower {
+  background-color: transparent;
+}
+
+input#pedsumid::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 100vw;
+  width: 0.5%;
+  opacity: 0;
+}
+
+input#pedsumid::-moz-range-thumb {
+  -moz-appearance: none;
+  height: 100vw;
+  width: 0.5%;
+  opacity: 0;
+}
+
+input#pedsumid::-ms-thumb {
+  height: 100vw;
+  width: 0.5%;
+  opacity: 0;
+}
+
+input#pedsumid::-ms-tooltip {
+  display: none;
+}
+
+#kobavenusab::before {
+  background: url("../images/icons/before.svg") no-repeat scroll 0 center transparent;
+  background-size: contain;
+  content: " ";
+  float: right;
+  height: 63px;
+  margin-right: -34px;
+  margin-top: 186px;
+  position: relative;
+  top: 0;
+  width: 63px;
+}
+
+@-webkit-keyframes first {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 80%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes first {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 80%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+.before__slide-content {
+  color: #4B5258;
+  margin-left: 39px;
+}
+
+.before__slide-title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 140%;
+  margin-top: 61px;
+  margin-bottom: 26px;
+}
+
+.before__slide-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+}
+.before__slide-text p {
+  margin-bottom: 8px;
+}
+.before__slide-text p:last-child {
+  margin-bottom: 13px;
+}
+.before__slide-text span {
+  color: #959A9D;
+}
+
+.before__slide-price {
+  color: #43AAFF;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  max-width: 206px;
+  margin-bottom: 31px;
+}
+
+.before__slide-dots .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.before__slide-dots li {
+  margin-right: 5px;
+}
+.before__slide-dots li:last-child {
+  margin-right: 0;
+}
+.before__slide-dots button {
+  font-size: 0;
+  background-color: transparent;
+  width: 8px;
+  height: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.before__slide-dots button::before {
+  content: "";
+  height: 8px;
+  width: 100%;
+  background-color: #E9E9E9;
+  border-radius: 50%;
+}
+.before__slide-dots .slick-active button::before {
+  background: #43AAFF;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.before__arrow {
+  position: absolute;
+  top: 50%;
+  background: #43AAFF;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-box-shadow: 0px 0px 5px 0px #43AAFF;
+          box-shadow: 0px 0px 5px 0px #43AAFF;
+  border-radius: 50%;
+}
+
+.before__prev {
+  left: 0;
+  padding: 24px 28px 24px 26px;
+  margin-left: -30px;
+}
+
+.before__next {
+  right: 0;
+  padding: 24px 26px 24px 28px;
+  margin-right: -30px;
 }
